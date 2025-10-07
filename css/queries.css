@@ -129,12 +129,13 @@ instead, 1 rem = 1 em = 16px */
   .main-nav-link:visited {
     font-size: 3rem;
   }
-  /* .icon-mobile-nav[name="close-outline"] {
+  .btn-mobile-nav.nav-open .close-icon {
+    display: block;
+  }
+
+  .btn-mobile-nav.nav-open .menu-icon {
     display: none;
-  } */
-  /* .icon-mobile-nav[name="menu-outline"] {
-    display: none;
-  } */
+  }
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;

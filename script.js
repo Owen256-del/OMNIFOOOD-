@@ -19,10 +19,12 @@ const navList = document.querySelectorAll(".main-nav-link");
 
 btnNavigation.addEventListener("click", function () {
   header.classList.toggle("nav-open");
+  btnNavigation.classList.toggle("nav-open");
 });
 navList.forEach((link) => {
   link.addEventListener("click", () => {
     header.classList.remove("nav-open");
+    btnNavigation.classList.remove("nav-open");
   });
 });
 
